@@ -4,7 +4,8 @@
 
 int main() {
 
-	setlocale(LC_ALL, "Ru");
+	setlocale(LC_ALL, "Russian");
+	system("chcp 1251");
 	float x, y, s, p;
 	printf("введите стороны прямоугольника:");
 	scanf_s("%f", &x);
