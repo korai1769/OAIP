@@ -9,7 +9,7 @@ int main() {
 	float x, y, s, p;
 	printf("введите стороны прямоугольника:");
 	scanf_s("%f", &x);
-	scanf_s("%f", &y);
+	scanf("%f", &y);
 	s = x * y; //площадь
 	p = 2 * (x + y); //периметр
 	printf("площадь %f\n", s);
