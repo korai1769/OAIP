@@ -12,7 +12,7 @@ scanf_s("%f", &x );
 scanf_s("%f", &y);
 s=x*y; //площадь
 p=2*(x+y); //периметр
-printf("площадь %f\n",s);
+printf("площадь %f\n", s);
 printf("периметр %f",p);
 return 0;
 }
